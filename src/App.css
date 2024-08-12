@@ -1,0 +1,278 @@
+.App {
+ background-color: #281549;
+  min-height: 100vh;
+}
+
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App-navbar-brand{
+  color:blue;
+}
+#home-box,h1{
+  color:white;
+  font-size:100px;
+  display:flex;
+  
+}
+h1{
+  text-shadow:2px 2px 20px white;
+  min-width:40%;
+  
+}
+.home-moto{
+  color:#f64df3;
+  text-shadow:2px 2px 10px #f64df3;
+}
+.home-contact{
+  background:linear-gradient(140deg ,#8930ff,#f64df3);
+  color:white;
+  padding-left:30px;
+  padding-right:30px;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:20px;
+  border:none;
+  border-radius:40px;
+}
+#home-contact:hover{
+  background:transparent;
+  color:#f64df3;
+  border:2px solid, #f64df3;
+}
+#logo{
+padding-top:15vh;
+padding-bottom:5vh;
+}
+.Home-service-headline{
+  color:white;
+  margin-top:7rem;
+}
+.Home-plan-headline{
+  color:white;
+  margin-top:7rem;
+  padding-bottom:10vh;
+}
+.Home-service-flex{
+  display:flex;
+  gap:30px;
+}
+.home-flex-btn{
+  background:linear-gradient(140deg ,#8930ff,#f64df3);
+  position:relative;
+  color:white;
+  padding-left:30px;
+  padding-right:30px;
+  padding-top:10px;
+  margin-bottom:50px;
+  margin-left:50px;
+  padding-bottom:10px;
+  font-size:20px;
+  border:none;
+  border-radius:40px;
+}
+.card {
+  position: relative;
+  width: 50vw;
+  height: 50vh;
+  margin-top:4rem;
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #333;
+  transition: transform 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+.card-content {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  color: white;
+}
+.card h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff69b4;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #f64df3;
+}
+#cards{
+  display:flex;
+  gap:4vw;
+}
+
+.plan-img{
+  width:90%;
+  border-radius:20%;
+}
+
+#Home-plans{
+  display:flex;
+  color:white;
+  font-size:20px;
+}
+.Home-plans{
+  padding-top:10vh;
+  
+}
+.pink-line{
+  color:#ff69b4;
+  
+}
+.plan-list{
+  padding-bottom:7vh;
+}
+.Home-bundles{
+  display:flex;
+  gap:3vw;
+}
+.bundle-moto{
+  color:white;
+  font-size:18px;
+  padding-top:50px;
+}
+h4,h2{
+  color:white;
+}
+.Home-accessories{
+  display:flex;
+  gap:5vw;
+}
+.Home-faq{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./images/faq.gif');
+  width:99.1vw;
+  height:75vh;
+  background-repeat:no-repeat;
+  background-size:cover;
+  margin-top:5rem;
+  background-color:rgba(0, 0, 0, 0.2);
+}
+.faq-flex{
+  display:flex;
+  color:white;
+  font-size:2.5vh;
+  gap:7vh;
+}
+.faq-sol{
+  font-size:2vh;
+}
+#AboutUs{
+  display:flex;
+  gap:5vw;
+}
+.about-btn-flex{
+  display:flex;
+  gap:2vh;
+}
+.abtBtn{
+  background:transparent;
+  color:#f64df3;
+  border:2px solid, #f64df3;
+  padding-left:30px;
+  padding-right:30px;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:20px;
+  border-radius:40px;
+}
+.home-container{
+  width:100%;
+  padding:0;
+  margin:0;
+}
+.contact-img{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./images/contactImg.gif');
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:80vh;
+  width:50vw;
+  margin-top:10vh;
+}
+.contact-txt{
+  font-size:7vh;
+  color:white;
+  padding-top:7vh;
+  
+}
+.contact-line{
+  width:50%;
+  text-shadow:2px 2px 20px white;
+  padding-top:20vh;
+  padding-left:7vw;
+
+}
+#contact-flex{
+  display:flex;
+  gap:4vw;
+}
+.contact-details{
+  color:white;
+  margin-top:30vh;
+}
+.cont-detail-txt{
+  font-size:3vh;
+}
+
+@media (max-width: 1185px){
+  #cards{
+    display:block;
+
+  }
+  .card{
+    min-width:100%;
+  }
+  h1{
+    font-size:10vw;
+    width:40%;
+  }
+  #Home-plans,.Home-bundles,.Home-accessories,.faq-flex,#AboutUs,#contact-flex{
+    flex-direction: column;
+  }
+  
+  .Home-faq{
+    height:auto;
+    padding-bottom:5rem;
+  }
+  
+  .contact-img{
+    width:auto;
+  }
+  .contact-details{
+    margin-top:1vh;
+    margin-bottom:10vh;
+  }
+  
+}

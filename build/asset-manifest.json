@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fc28aab9.css",
+    "main.js": "/static/js/main.194c0029.js",
+    "static/js/453.a3828db8.chunk.js": "/static/js/453.a3828db8.chunk.js",
+    "static/media/contactImg.gif": "/static/media/contactImg.05ac2848dc25bfa8c2b5.gif",
+    "static/media/faq.gif": "/static/media/faq.7792f58fcab8f3b5b0fe.gif",
+    "static/media/homeBg.jpg": "/static/media/homeBg.329814513cc25f1ab6a0.jpg",
+    "static/media/macbook.jpg": "/static/media/macbook.15b7c088c659f34a8a7c.jpg",
+    "static/media/aboutCora.jpg": "/static/media/aboutCora.ea948af940de652f9453.jpg",
+    "static/media/itserv.png": "/static/media/itserv.f9373fbf6f64251ffb38.png",
+    "static/media/stater.gif": "/static/media/stater.b1f918c6a2f187860c2c.gif",
+    "static/media/ecom.jpg": "/static/media/ecom.e5bd01257ff1b60cd667.jpg",
+    "static/media/router.png": "/static/media/router.69d3e76b5b488195fee7.png",
+    "static/media/family.jpeg": "/static/media/family.297c48eb9a78e48b31f6.jpeg",
+    "static/media/network.jpg": "/static/media/network.9ca1ab1df30538174f46.jpg",
+    "static/media/familysub.png": "/static/media/familysub.55a27fc26b5c67f784f7.png",
+    "static/media/logo.svg": "/static/media/logo.4298a8e70e661c18910d040af2300c51.svg",
+    "static/media/contact-logo.png": "/static/media/contact-logo.07df4e639d08fec19421.png",
+    "index.html": "/index.html",
+    "main.fc28aab9.css.map": "/static/css/main.fc28aab9.css.map",
+    "main.194c0029.js.map": "/static/js/main.194c0029.js.map",
+    "453.a3828db8.chunk.js.map": "/static/js/453.a3828db8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc28aab9.css",
+    "static/js/main.194c0029.js"
+  ]
+}
